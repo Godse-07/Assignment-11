@@ -22,7 +22,7 @@ int main() {
     int factor = smallestFactor(num);
 
     if(factor == -1) {
-        printf("The number is prime");
+        printf("No factor");
     }
     else {
         printf("Smallest factor of %d is %d", num, factor);
